@@ -1,0 +1,17 @@
+Consignes :
+
+    Demandez à l’utilisateur de choisir une forme géométrique parmi :
+        c pour le carré,
+        r pour le rectangle,
+        t pour le triangle,
+        o pour le cercle.
+
+    Créez une fonction pour chaque forme géométrique :
+        int aire_carre(int cote) : Calcule l'aire d'un carré.
+        int aire_rectangle(int largeur, int hauteur) : Calcule l'aire d'un rectangle.
+        double aire_triangle(int base, int hauteur) : Calcule l'aire d'un triangle.
+        double aire_cercle(double rayon) : Calcule l'aire d'un cercle.
+
+    Utilisez une fonction calcul_aire qui prend l'opérateur (c, r, t, o) et les dimensions nécessaires pour appeler la bonne fonction.
+
+    Gérez les cas où l'utilisateur entre une commande invalide, avec un message d’erreur clair.
