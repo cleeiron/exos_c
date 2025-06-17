@@ -1,6 +1,6 @@
 #include <unistd.h>
 
-void ft_print_numbers(void)
+void ft_print_numbers(void);
 {
     int chiffre = 0;
     char chiffre_ascii;
@@ -9,4 +9,5 @@ void ft_print_numbers(void)
         write(1, &chiffre_ascii,1);
         chiffre ++;
     }
+    write(1, "\n", 1);
 }
